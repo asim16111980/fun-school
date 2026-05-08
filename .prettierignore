@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+
+# Production build
+dist/
+
+# Environment variables
+.env*
+.env.local
+
+# Debug & logs
+*.log
+logs/
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vercel / Railway
+.vercel/
+
+# Misc
+*.pem
+.turbo/
+.cache/
+.parcel-cache/

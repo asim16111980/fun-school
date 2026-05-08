@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"D:\\\\fun-school\\\\.specify\\\\extensions\\\\git\\\\scripts\\\\powershell\\\\initialize-repo.ps1\")",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1 *)",
+      "Bash(powershell *)",
+      "Bash(.specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(./.specify/skills/speckit-git-commit.ps1)",
+      "Bash(cd /d D:\\\\fun-school)",
+      "Bash(.\\\\specify\\\\scripts\\\\powershell\\\\check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks)",
+      "Bash(.specify\\\\scripts\\\\powershell\\\\check-prerequisites.ps1 *)",
+      "Bash(npx create-next-app@latest *)",
+      "Bash(mv eduquest/* .)",
+      "Bash(mv eduquest/.* .)",
+      "Bash(rmdir eduquest *)",
+      "Bash(cp -r src/* .)",
+      "Bash(rm -rf src)",
+      "Bash(npx tailwindcss *)",
+      "Bash(./node_modules/.bin/tailwindcss init *)",
+      "Bash(npm install *)",
+      "Bash(git add *)"
+    ]
+  }
+}
