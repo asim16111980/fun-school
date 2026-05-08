@@ -18,7 +18,9 @@
       "Bash(npx tailwindcss *)",
       "Bash(./node_modules/.bin/tailwindcss init *)",
       "Bash(npm install *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(npm list *)"
     ]
   }
 }
