@@ -20,7 +20,11 @@
       "Bash(npm install *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(npm list *)"
+      "Bash(npm list *)",
+      "Bash(git checkout *)",
+      "Bash(git push *)",
+      "Bash(gh pr *)",
+      "Bash(git merge *)"
     ]
   }
 }
