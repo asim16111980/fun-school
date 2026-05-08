@@ -18,13 +18,16 @@
       "Bash(npx tailwindcss *)",
       "Bash(./node_modules/.bin/tailwindcss init *)",
       "Bash(npm install *)",
-      "Bash(git add *)",
-      "Bash(git commit *)",
       "Bash(npm list *)",
-      "Bash(git checkout *)",
-      "Bash(git push *)",
-      "Bash(gh pr *)",
-      "Bash(git merge *)"
+      "Bash(git add .)",
+      "Bash(git commit *)",
+      "Bash(git checkout main)",
+      "Bash(git checkout -b *)",
+      "Bash(git push origin main)",
+      "Bash(gh pr create *)",
+      "Bash(gh pr view *)",
+      "Bash(git merge main)",
+      "Bash(git add *)"
     ]
   }
 }
